@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 
+
 from bank.user import User
 from bank.account import Account
+
 
 def create_account(account_number, balance, type):
 	return Account(account_number, balance, type)
